@@ -1,0 +1,12 @@
+directional_light: 1 1 2
+
+sphere
+color: 200 100 0
+position: -1 0 -3
+shine: 1
+
+sphere
+color: 200 100 0
+position: 1 0 -3
+shine: 1
+metallic

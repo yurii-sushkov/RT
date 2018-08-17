@@ -1,0 +1,22 @@
+light: 5 5 5
+ambient: 0.2
+camera: 0 2 -15 0 0 0
+
+plane
+position: 0 -1 0
+direction: 0 1 0
+
+sphere
+position: -1.8 0 -4
+color: 255 0 255
+transparency: 0.7
+
+sphere
+position: 0 0 -4
+color: 0 255 255
+transparency: 0.7
+
+sphere
+position: 1.8 0 -4
+color: 255 255 0
+transparency: 0.7

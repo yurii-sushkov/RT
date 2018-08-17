@@ -1,0 +1,55 @@
+
+			Камера(очевидно же)
+camera: 0 0 2 0 0 0
+
+
+			Источник света
+light: 0.1 0.3 0
+
+
+			Пол
+plane
+reflective: 0.5
+position: 0 -1 0
+rotation: 0 1 0
+color: 255 250 193
+
+
+			Потолок
+plane
+reflective: 0.5
+position: 0  1 0
+rotation: 0 -1 0
+color: 255 255 255
+
+
+			Стены
+plane
+reflective: 0.5
+position: -2 0 0
+rotation:  1 0 0
+color: 200 200 180
+
+plane
+reflective: 0.5
+position: 2 0 0
+rotation: -1 0 0
+color: 200 200 180
+
+plane
+reflective: 0.5
+position: 0 0 -2
+rotation: 0 0 -1
+color: 200 200 180
+
+plane
+reflective: 0.5
+position: 0 0 4
+rotation: 0 0 1
+color: 200 200 180
+
+sphere
+reflective: 0.3
+position: 0 -0.7 -1
+radius: 0.3
+color: 200 105 205

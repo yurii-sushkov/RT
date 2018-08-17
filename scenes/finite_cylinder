@@ -1,0 +1,11 @@
+ambient: 0.1
+light: 0 10 0
+light: 20 0 0
+light: -20 0 0
+
+cylinder
+radius: 0.5
+position: 0 0 -5
+rotation: -30 0 45
+length: 2
+color: 255 0 0

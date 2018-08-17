@@ -1,0 +1,28 @@
+Три источника света, все обязательные фигуры.
+
+light: 4 2 0
+light: 0 0 2
+light: -2 2 0
+
+camera: 0 0 5 0 0 0
+
+plane
+position: 0 -1 0
+direction: 0 0 0
+color: 104 38 111
+
+sphere
+position: -2 0 -3
+size: 1
+color: 170 158 57
+
+cylinder
+position: 2 0 -3
+size: 0.2
+rotation: 30 0 -30
+color: 212 167 106
+
+cone
+position: -2 2 -8
+rotation: 0 0 30
+color: 102 153 51

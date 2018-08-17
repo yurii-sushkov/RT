@@ -1,0 +1,23 @@
+light: 2 5 0
+
+plane
+position: 0 -1 0
+direction: 0 1 0
+
+box
+position: 0 0 -5
+rotation: 0 30 0
+scale: 2 2 2
+transparency: 0.8
+
+box
+position: 0 0 -5
+rotation: 0 30 0
+scale: 1 1 1
+transparency: 0.8
+
+box
+position: 0 0 -5
+rotation: 0 30 0
+scale: 0.5 0.5 0.5
+transparency: 0.8

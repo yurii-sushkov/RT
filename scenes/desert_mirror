@@ -1,0 +1,56 @@
+no_skybox
+camera: 5 5 5 0 0 2
+
+light: 100 100 2
+
+box
+position: 0 0 2
+scale: 1 0.5 1
+color: 255 255 255
+
+box
+position: 4 0 -3
+scale: 1 0.5 1
+color: 255 255 255
+
+box
+position: 0 0 -8
+scale: 1 0.5 1
+color: 255 255 255
+
+disk
+position: 0 1 -8
+direction: 0 0 1
+radius: 1
+color: 255 255 255
+reflective: 0.1
+
+sphere
+position: 4 0.7 -3
+radius: 0.5
+color: 255 255 255
+reflective: 0.1
+
+cylinder
+position: 0 1 2
+reflective: 0.1
+direction: 0 0 0
+length: 3
+radius: 0.3
+color: 255 255 255
+
+plane
+position: 0 200 0
+direction: 0 1 0
+color: 0 0 255
+
+plane
+position: 0 -0.1 0
+direction: 0 1 0
+color: 239 205 184
+
+box
+reflective: 0.9
+position: 0 2 -3
+scale: 4 4 4
+color: 255 255 255

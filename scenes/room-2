@@ -1,0 +1,29 @@
+light: 0 0 0
+camera: 0 0 3 0 -0.3 0
+
+plane
+position: 0 -1 0
+rotation: 0 1 0
+
+plane
+position: 1 0 0
+rotation: -42 0 0
+
+plane
+position: 0 0 -1
+rotation: 0 0 1
+
+plane
+position: 0 1 0
+rotation: 0 -1 0
+
+plane
+position: -1 0 0
+rotation: 1 -1 0
+color: 110 146 255
+
+cylinder
+radius: 0.1
+position: -1 0 -1
+rotation: 0 0 45
+

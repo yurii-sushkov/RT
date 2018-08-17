@@ -1,0 +1,52 @@
+no_skybox
+
+camera: 0 0 10 0 0 0
+ambient: 0.2
+light: 200 1 -300
+
+sphere
+position: 200 1 -1000
+radius: 200
+color: 255 0 0
+
+sphere
+position: 0 0 0
+radius: 0.5
+color: 70 70 180
+shine: 0.5
+reflective: 0.1
+
+sphere
+position: -1 0 0
+radius: 0.15
+color: 192 192 192
+shine: 0.33
+reflective: 0.2
+
+sphere
+position: 1 0 1
+radius: 0.09
+shine: 0.3
+color: 0 192 192
+reflective: 0.3
+
+sphere
+position: 300 2 -400
+radius: 3
+color: 192 40 192
+shine: 0.4
+reflective: 0.3
+
+sphere
+position: 0 -3 -200
+radius: 3
+color: 100 100 33
+shine: 0.35
+reflective: 0.3
+
+sphere
+position: 5 0 -100
+radius: 3.4
+color: 0 40 192
+shine: 0.29
+reflective: 0.33

@@ -1,0 +1,44 @@
+
+ambient: 0.2
+light: 1 1 1
+camera: 0.3 1 5 0 0.5 0
+
+plane
+reflective: 0.2
+position: 0 -1 0
+direction: 0 0 0
+color: 104 38 111
+
+sphere
+shine: 0.4
+reflective: 0.2
+position: 0 0 -4
+color: 170 158 57
+
+disk
+reflective: 0.2
+position: -4 0 -2
+rotation: 0 0.5 0.5
+
+disk
+reflective: 0.2
+position: -4 0 -2
+rotation: 0.4 0 0.3
+
+cylinder
+reflective: 0.2
+position: 2 0 -3
+size: 0.2
+rotation: 0 0 0
+color: 102 153 51
+
+cone
+reflective: 0.2
+position: -2 0 -3
+rotation: 0 0 0
+color: 102 153 51
+
+box
+position: -1 -0.5 2
+color: 200 0 0
+reflective: 0.2

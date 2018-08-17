@@ -1,0 +1,79 @@
+
+			Камера(очевидно же)
+camera: 0.5 0 3 0 0 0
+
+
+			Свет
+ambient: 0.3
+light: 0.1 0.3 0
+
+
+			Пол
+plane
+position: 0 -1 0
+rotation: 0 1 0
+color: 255 250 193
+
+
+			Потолок
+plane
+position: 0  1 0
+rotation: 0 -1 0
+color: 255 255 255
+
+			Стены
+plane
+position: -2 0 0
+direction:  1 0 0
+color: 200 200 180
+
+plane
+position: 2 0 0
+direction: -1 0 0
+color: 200 200 180
+
+plane
+position: 0 0 -2
+direction: 0 0 -1
+color: 200 200 180
+
+plane
+position: 0 0 4
+direction: 0 0 1
+color: 200 200 180
+
+			Стол
+box
+scale: 0.05 0.6 0.05
+color: 85, 32, 0
+position: -1 -0.7 -1
+
+box
+scale: 0.05 0.6 0.05
+color: 85, 32, 0
+position: -1 -0.7 -0.5
+
+box
+scale: 0.05 0.6 0.05
+color: 85, 32, 0
+position: 0 -0.7 -1
+
+box
+scale: 0.05 0.6 0.05
+color: 85, 32, 0
+position: 0 -0.7 -0.5
+
+box
+position: -0.5 -0.4 -0.75
+scale: 1.2 0.02 0.7
+color: 85, 32, 0
+
+			Кровать
+box
+position: 1.5 -0.9 -0.8
+scale: 0.8 0.3 2
+color: 200 100 50
+
+box
+position: 1.5 -0.7 -1.4
+scale: 0.55 0.1 0.3
